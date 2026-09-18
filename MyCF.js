@@ -20,7 +20,7 @@
 import { connect } from 'cloudflare:sockets';
 const VERSION = '0.1.1';
 // GitHub 仓库最新版源码地址（面板右上角版本号按钮点击检测更新；远端版本号取自该文件 const VERSION）
-const UPDATE_RAW_URL = '';
+const UPDATE_RAW_URL = 'https://github.com/George4H/MyCF/blob/main/MyCF.js';
 const CLASH_TEMPLATE = `# ==================== 锚点配置 ====================
 # 代理提供者模板 - 订阅源基础配置
 
